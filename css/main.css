@@ -1606,8 +1606,13 @@ a {
   opacity: 1;
   visibility: visible;
 }
- .pflege-divider {
-    width: 100%;
+
+   .pflege-divider {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  width: 100%;
+}
+
   }
 
 /* ========================================
